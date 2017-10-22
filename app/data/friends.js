@@ -1,96 +1,29 @@
-//Starter data for friend_finder
-var friends = [{
-	name:"Chandler Bing",
-	photo:"https://img1.telestar.fr/var/telestar/storage/images/media/images/2016/photos/20160324-friends-matthew/matthew-perry4/1301377-1-fre-FR/Matthew-Perry_width1024.jpg",
-	scores:[
-		3,
-		1,
-		2,
-		1,
-		2,
-		5,
-		2,
-		1,
-		3,
-		5
-	]
-},{
-	name:"Pheobe Buffay",
-	photo:"https://pbs.twimg.com/media/DF_wtIrW0AEHJci.jpg",
-	scores:[
-		2,
-		4,
-		1,
-		1,
-		3,
-		1,
-		1,
-		5,
-		2,
-		4
-	]
-},{
-	name:"Rachel Green",
-	photo:"http://ilarge.lisimg.com/image/6306371/1118full-rachel-green.jpg",
-	scores:[
-		3,
-		4,
-		5,
-		1,
-		5,
-		2,
-		4,
-		3,
-		1,
-		1
-	]
-},{
-	name:"Monica Geller",
-	photo:"http://22dakika.org/wp-content/uploads/2014/04/tumblr_mmrnncoZFF1r2vo64o1_1280.jpg",
-	scores:[
-		5,
-		3,
-		3,
-		1,
-		4,
-		2,
-		5,
-		2,
-		5,
-		1
-	]
-},{
-	name:"Ross Geller",
-	photo:"https://img3.telestar.fr/var/telestar/storage/images/media/images/2016/photos/20161102-david-schwimmer/david-schwimmer-dans-friends-en-2004-pour-la-derniere-saison-10/1510212-1-fre-FR/David-Schwimmer-dans-Friends-en-2004-pour-la-derniere-saison-10_width1024.jpg",
-	scores:[
-		4,
-		2,
-		3,
-		5,
-		1,
-		3,
-		4,
-		1,
-		3,
-		1
-	]
-},{
-	name:"Joey Tribbiani",
-	photo:"https://vignette2.wikia.nocookie.net/friends/images/5/5a/Square_Joey.jpg/revision/latest?cb=20160528174812",
-	scores:[
-		1,
-		5,
-		3,
-		1,
-		3,
-		2,
-		2,
-		1,
-		5,
-		5
-	]
-}];
+var friends =[{
+	"name":"James",
+	"photo":"http://i4.coventrytelegraph.net/incoming/article12019349.ece/BINARY/14481781_1790757541167256_5339702059479433461_o.jpg",
+	"scores":[3,2,3,5,4,3,2,3,4,5]
 
-//Export data to API
-module.exports = friends;
-س
+},
+{
+  "name":"Ahmed",
+  "photo":"http://iv1.lisimg.com/image/2440140/451full-ahmed-ezz.jpg",
+  "scores":[5,1,4,4, 5,1,2,5,4,1 ]
+},{
+	"name":"Raul",
+	"photo":"https://2.bp.blogspot.com/-PbRUexnRYgw/VzX_UQsmadI/AAAAAAAAI8E/WFp2QfQ3GBA8UyxoPA0dqyFKqyfsnDCoQCLcB/s1600/Raul.jpg",
+	"scores":[4,4,4,4,4,4,4,5,5,5]
+
+},{
+	"name":"Chris",
+	"photo":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Chris_Rock_WE_2012_Shankbone.JPG/1200px-Chris_Rock_WE_2012_Shankbone.JPG",
+	"scores":[1,2,3,4,5,5,4,3,2,1]
+
+},
+{
+	"name":"Ron",
+	"photo":"http://www.rockrollphoto.com/img/slideshow/7.jpeg",
+	"scores":[5,4,3,2,1,1,2,3,4,5]
+
+},]
+// Exporting the array
+module.exports = friends ;
