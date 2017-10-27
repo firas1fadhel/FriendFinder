@@ -25,14 +25,14 @@ module.exports = function(app){
 
 	var bestMatch = {
 		name: "",
-		image: "",
+		photo: "",
 		matchPoints: 1000
 	};
 
 	// Store user data from the form into variables
 	var userData = req.body;
 	var userName = userData.name;
-	var userImage = userData.image;
+	var userphoto = userData.photo;
 	var userPoints = userData.points;
 
 	// Create variable for point difference
@@ -53,7 +53,7 @@ module.exports = function(app){
 				// and replace best match if point difference is lower
 				if (pointDifference <= bestMatch.matchPoints){
 					bestMatch.name = friendData[i].name;
-					bestMatch.image = friendData[i].image;
+					bestMatch.photo = friendData[i].photo;
 					bestMatch.matchPoints = pointDifference;
 				}
 			}

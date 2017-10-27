@@ -1,7 +1,7 @@
 var friends =[{
 	"name":"James",
 	"photo":"http://i4.coventrytelegraph.net/incoming/article12019349.ece/BINARY/14481781_1790757541167256_5339702059479433461_o.jpg",
-	"points":[3,2,3,5,4,3,2,3,4,5]
+	"points":["3","2","3","5","4","3","2","3","4","5"]
 
 },
 {
